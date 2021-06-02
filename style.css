@@ -24,7 +24,7 @@
     position: fixed;
 }
 
-.progress-bar {
+.progress-bar-custom {
     height: 8px;
     background: coral;
     width: 0%;
