@@ -9,10 +9,12 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
         <link href="style.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href='https://fonts.googleapis.com/css?family=Akronim' rel='stylesheet'>
 
         <title>.: PORTOFOLIO :.</title>
     </head>
@@ -36,13 +38,13 @@
                             <a class="nav-link active" aria-current="page" href="#About">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#Skill">Skill</a>
+                            <a class="nav-link" href="#SkillLabel">Skill</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Experience</a>
+                            <a class="nav-link" href="#experience">Experience</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#Skill">Skill</a>
+                            <a class="nav-link" href="#contact">Contact Me</a>
                         </li>
                     </ul>
                 </div>
@@ -72,92 +74,94 @@
         <!-- End Jumbotron -->
 
         <!-- About -->
-        <div class="About" id="About">
-            <div class="container" data-aos="fade-down">
+        <div class="About" id="About" style="height:300px;">
+            <div class=" container" data-aos="fade-down">
                 <div class="row text-center mb-3">
                     <div class="col">
-                        <H2>About Me</H2>
+                        <H2>A B O U T &nbsp M E</H2>
                     </div>
                 </div>
                 <div class="row justify-content-center fs-5 text-center">
                     <div class="col-md-8">
-                        <p>Welcome to the portofolio of Dwicky Feriansyah Putra. I'am a student at the Satya Wacana
+                        <p style="color:gray; font-family: 'Trirong', serif;">Welcome to the portofolio of Dwicky
+                            Feriansyah
+                            Putra. I'am a student at the
+                            Satya Wacana
                             Christian University. I live in Salatiga, Central Java, Indonesia. Now i work as a
                             Programmer. I make a website. Have fun and nice to see u.</p>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="parallax">
+            <div class="caption" id="SkillLabel">SKILL</div>
+        </div>
 
-        <section>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                <path fill="#bdd1ff" fill-opacity="1"
-                    d="M0,192L26.7,208C53.3,224,107,256,160,240C213.3,224,267,160,320,122.7C373.3,85,427,75,480,80C533.3,85,587,107,640,144C693.3,181,747,235,800,229.3C853.3,224,907,160,960,138.7C1013.3,117,1067,139,1120,138.7C1173.3,139,1227,117,1280,90.7C1333.3,64,1387,32,1413,16L1440,0L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z">
-                </path>
-            </svg>
-        </section>
-
-        <section class="skill" id="Skill">
+        <section class="skill" id="Skill" style="padding-top:50px; background-color:#282e34; padding-bottom:40px;">
             <div class="container">
                 <div class="row" data-aos="fade-left">
                     <div class="col-md-6"">
                         <div class=" row text-center mb-3">
                         <div class="col">
-                            <h1>Skill</h1>
+                            <h1 style="font-family: 'Trirong', serif; color:white">S K I L L</h1>
                         </div>
                     </div>
                     <div class="row justify-content-center fs-5 text-center">
                         <div class="col-10">
                             <div class="progress" style="height: 20px;">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                                    aria-valuemax="100" style="width: 75%">Python
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%
+                                    Python
                                 </div>
                             </div>
-                            <dir></dir>
+                            <br>
                             <div class="progress" style="height: 20px;">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                                    aria-valuemax="100" style="width: 75%">Flask
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%
+                                    Flask
                                 </div>
                             </div>
-                            <dir></dir>
+                            <br>
                             <div class="progress" style="height: 20px;">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                                    aria-valuemax="100" style="width: 71%">PHP
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 71%"> 71% PHP
                                 </div>
                             </div>
-                            <dir></dir>
+                            <br>
                             <div class="progress" style="height: 20px;">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                                    aria-valuemax="100" style="width: 60%">Laravel
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%">60%
+                                    Laravel
                                 </div>
                             </div>
-                            <dir></dir>
+                            <br>
                             <div class="progress" style="height: 20px;">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                                    aria-valuemax="100" style="width: 70%">
-                                    Bootstrap
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                                    70% Bootstrap
                                 </div>
                             </div>
-                            <dir></dir>
+                            <br>
                             <div class="progress" style="height: 20px;">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                                    aria-valuemax="100" style="width: 60%">CSS
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%">60% CSS
                                 </div>
                             </div>
-                            <dir></dir>
+                            <br>
                             <div class="progress" style="height: 20px;">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                                    aria-valuemax="100" style="width: 70%">
-                                    Javascript
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                                    70% Javascript
                                 </div>
                             </div>
-                            <dir></dir>
+                            <br>
                             <div class="progress" style="height: 20px;">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                                    aria-valuemax="100" style="width: 70%">Webix JS
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%">70%
+                                    Webix JS
                                 </div>
                             </div>
-                            <dir></dir>
+                            <br>
                         </div>
                     </div>
                 </div>
@@ -167,13 +171,192 @@
             </div>
             </div>
         </section>
-        <section>
+        <!-- <section>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                 <path fill="#bdd1ff" fill-opacity="1"
                     d="M0,192L26.7,208C53.3,224,107,256,160,240C213.3,224,267,160,320,122.7C373.3,85,427,75,480,80C533.3,85,587,107,640,144C693.3,181,747,235,800,229.3C853.3,224,907,160,960,138.7C1013.3,117,1067,139,1120,138.7C1173.3,139,1227,117,1280,90.7C1333.3,64,1387,32,1413,16L1440,0L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z">
                 </path>
             </svg>
-        </section>
+        </section> -->
+        <div class="parallax2" id="experience">
+            <div class="caption2" id="SkillLabel">
+                <SPAN class="box-text justify-content-center fs-5 text-center"> E X P E R I E N C E </SPAN>
+            </div>
+        </div>
+        <br>
+
+        <div class="container">
+            <span class="justify-content-center fs-5 text-center"> E X P E R I E N C E </span>
+            <br>
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs justify-content-center" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#home">Organization</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#menu1">Assistant Course</a>
+                </li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div id="home" class="container tab-pane active"><br>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="main-timeline8">
+                                    <div class="timeline">
+                                        <span class="timeline-icon"></span>
+                                        <span class="year">2018</span>
+                                        <div class="timeline-content">
+                                            <h3 class="title">EVENT DIVISION OF TIFEE 2018</h3>
+                                            <p class="description">
+                                                Prepare a series of opening and closing events.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="timeline">
+                                        <span class="timeline-icon"></span>
+                                        <span class="year">2018-2019</span>
+                                        <div class="timeline-content">
+                                            <h3 class="title">SENAT MAHASISWA FAKULTAS</h3>
+                                            <p class="description">
+                                                Become the coordinator of the leadership department and become the
+                                                chairman of the executive student leadership basic
+                                                training.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="timeline">
+                                        <span class="timeline-icon"></span>
+                                        <span class="year">2018</span>
+                                        <div class="timeline-content">
+                                            <h3 class="title">EVENT DIVISION OF LUSTRUM III</h3>
+                                            <p class="description">
+                                                Prepare a series of closing events.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="timeline">
+                                        <span class="timeline-icon"></span>
+                                        <span class="year">2019</span>
+                                        <div class="timeline-content">
+                                            <h3 class="title">EVENTS DIVISION COORDINATOR OF FTI DAYS 2019</h3>
+                                            <p class="description">
+                                                Coordinate the course of the event, arrange the event, ensure the event
+                                                runs smoothly, be responsible for the course of
+                                                the event.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="timeline">
+                                        <span class="timeline-icon"></span>
+                                        <span class="year">2019-2020</span>
+                                        <div class="timeline-content">
+                                            <h3 class="title">SECRETARIAL STAFF OF SENAT MAHASISWA FAKULTAS</h3>
+                                            <p class="description">
+                                                Responsible for checking the administration of activities.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="menu1" class="container tab-pane fade"><br>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="main-timeline8">
+                                    <div class="timeline">
+                                        <span class="timeline-icon"></span>
+                                        <span class="year">2018-2019</span>
+                                        <div class="timeline-content">
+                                            <h3 class="title">ASSITANT COURSE OF DIGITAL SYSTEM</h3>
+                                            <p class="description">
+                                                Teaching digital system courses.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="menu2" class="container tab-pane fade"><br>
+                    <h3>Menu 2</h3>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="parallax3">
+            <div class="caption2" id="SkillLabel">
+                <SPAN class="box-text justify-content-center fs-5 text-center"> CONTACT OF ME </SPAN>
+            </div>
+        </div>
+        <div class="container-fluid pb-0 mb-0 justify-content-center text-light " style="padding-top: 0px;"
+            id="contact">
+            <footer>
+                <div class="row my-5 justify-content-center py-5">
+                    <div class="col-11">
+                        <div class="row ">
+                            <div class="col-xl-8 col-md-4 col-sm-4 col-12 my-auto mx-auto a">
+                                <h3 class="text-muted mb-md-0 mb-5 bold-text">Dwicky Feriansyah Putra</h3>
+                            </div>
+                            <div class="col-xl-2 col-md-4 col-sm-4 col-12">
+                                <h6 class="mb-3 mb-lg-4 bold-text "><b>MENU</b></h6>
+                                <ul class="list-unstyled">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" style="color: #989b9b;"
+                                            href="#About">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" style="color: #989b9b;" href="#SkillLabel">Skill</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" style="color: #989b9b;" href="#experience">Experience</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" style="color: #989b9b;" href="#contact">Contact Me</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-xl-2 col-md-4 col-sm-4 col-12">
+                                <h6 class="mb-3 mb-lg-4 text-muted bold-text mt-sm-0 mt-5"><b>ADDRESS</b></h6>
+                                <p class="mb-1">Salatiga, Central Java</p>
+                                <p>Indonesia</p>
+                            </div>
+                        </div>
+                        <div class="row ">
+                            <div
+                                class="col-xl-8 col-md-4 col-sm-4 col-auto my-md-0 mt-5 order-sm-1 order-3 align-self-end">
+                                <p class="social text-muted mb-0 pb-0 bold-text"> <span class="mx-2"><a
+                                            onclick="myFunction()" class="fa fa-instagram" data-aos="fade-down"
+                                            data-aos-delay="50"></a>
+                                        <a onclick="myFunctionFacebook()" class="fa fa-facebook" data-aos="fade-down"
+                                            data-aos-delay="70"></a>
+                                        <a href="mailto:feri.dfp@gmail.com" class="fa fa-envelope" data-aos="fade-down"
+                                            data-aos-delay="90"></a>
+                                        <a onclick="myFunctionLinkedIn()" class="fa fa-linkedin" data-aos="fade-down"
+                                            data-aos-delay="110"></a>
+                                        <a onclick="myFunctionGit()" class="fa fa-github" data-aos="fade-down"
+                                            data-aos-delay="130"></a></span> </p>
+                                <small class="rights"><span>&#174;</span> Dwicky F.P.
+                                    All Rights Reserved.</small>
+                            </div>
+                            <div class="col-xl-2 col-md-4 col-sm-4 col-auto order-1 align-self-end ">
+                                <h6 class="mt-55 mt-2 text-muted bold-text"><b>DWICKY FERIANSYAH PUTRA</b></h6><small>
+                                    <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                                    feri.dfp@gmail.com</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
 
 
 
